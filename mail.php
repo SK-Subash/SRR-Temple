@@ -12,7 +12,7 @@
     $message         = @trim(stripslashes($_POST['message'])); 
 
     $email_from = $email;
-    $email_to = 'info@socosinc.com';//replace with your email
+    $email_to = 'info@srrtemple.ca';//replace with your email
 
     $body = 'FirstName: ' . $firstname . "\n\n" . 'LastName: ' . $lastname . "\n\n" .  "\n\n" . 'Email: ' . $email . 'Phone: ' . $phone . "\n\n" . 'Message: ' . $message;
 
